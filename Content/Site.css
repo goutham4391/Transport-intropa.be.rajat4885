@@ -1,0 +1,61 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+.three-column .col-md-3 {
+    width: 33.33%;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+
+    .three-column .col-md-3 {
+        width: 100%;
+    }
+}
+
+.navbar-inverse {
+    background-color: #5c5d5a;
+    border-color: #080808;
+}
+
+.caption {
+    text-align: center
+}
+
+.myfooter {
+    background-color: #e6e6e6;
+    padding: 10px;
+    font-size: 11px !important;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 2px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
